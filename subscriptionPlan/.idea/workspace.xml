@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b2ba1c70-502e-42be-ada6-e86f4778fb54" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/CommonResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/HistoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/PlanResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/SubscriptionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/notification/NotificationRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/NotificationClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/DataLoader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/SubscriptionHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/SubscriptionHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/SubscriptionPlanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/SubscriptionPlanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/UserSubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/controller/UserSubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/UpdatePlanRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/UpdatePlanRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/UpdateSubscriptionRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/UpdateSubscriptionRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/SubscriptionHistoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/SubscriptionHistoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/SubscriptionPlanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/SubscriptionPlanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/UserSubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/service/UserSubscriptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3FnHFheLKf80BmKCkX0KiMLSirk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MediahubApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.MediahubApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/subscriptionPlan&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/2506617/Downloads/mediahub/subscriptionPlan&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Spring Boot.MediahubApplication">
+    <configuration name="MediahubApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mediahub.subscriptionPlan.MediahubApplication" />
+      <module name="subscriptionPlan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mediahub.subscriptionPlan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MediahubApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="subscriptionPlan" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mediahub.subscriptionPlan.MediahubApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mediahub.subscriptionPlan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.MediahubApplication" />
+        <item itemvalue="Application.MediahubApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b2ba1c70-502e-42be-ada6-e86f4778fb54" name="Changes" comment="" />
+      <created>1782703811312</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782703811312</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/com/mediahub/subscriptionPlan/dto/CreateUserRequest.java</url>
+          <line>8</line>
+          <properties field="email" class="com.mediahub.subscriptionPlan.dto.CreateUserRequest" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
