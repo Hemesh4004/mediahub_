@@ -240,4 +240,34 @@ public class UserSubscriptionService {
 
         return response;
     }
+
+    // ✅ VALIDATE SUBSCRIPTION FOR CONTENT ACCESS
+    public Map<String, Object> validateSubscription(
+            Long userId) {
+
+        log.info(
+                "Validating subscription for user id: {}",
+                userId);
+
+        Map<String, Object> response =
+                new HashMap<>();
+
+        boolean activeSubscription =
+                userSubscriptionRepository
+                        .findByUserIdAndStatus(
+                                userId,
+                                "Active")
+                        .isPresent();
+
+        response.put(
+                "userId",
+                userId);
+
+        response.put(
+                "subscriptionActive",
+                activeSubscription);
+
+        return response;
+    }
+
 }

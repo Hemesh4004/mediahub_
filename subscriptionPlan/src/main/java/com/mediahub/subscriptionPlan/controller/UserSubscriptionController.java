@@ -127,4 +127,13 @@ public class UserSubscriptionController {
                     .body(Map.of("message", "Unable to fetch analytics"));
         }
     }
+
+    @GetMapping("/validateSubscription/{userId}")
+    public ResponseEntity<?> validateSubscription(
+            @PathVariable Long userId) {
+
+        return ResponseEntity.ok(
+                userSubscriptionService
+                        .validateSubscription(userId));
+    }
 }
