@@ -1,0 +1,38 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        # Content Catalog & Creator Management microservice
+        - id: content-catalog-service
+          uri: lb://content-catalog-service
+          predicates:
+            - Path=/mediahub/contentCatalog/**
+
+        # IAM module -- uncomment once eureka-client dependency + this
+        # gateway config are added to the iam service's own pom.xml
+        # - id: iam
+        #   uri: lb://iam
+        #   predicates:
+        #     - Path=/mediaHub/iam/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

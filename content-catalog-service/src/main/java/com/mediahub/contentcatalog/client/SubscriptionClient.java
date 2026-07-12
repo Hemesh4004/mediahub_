@@ -10,12 +10,16 @@ import java.util.Map;
 public class SubscriptionClient {
 
     @Autowired
-    private WebClient webClient;
+    private WebClient.Builder loadBalancedWebClientBuilder;
 
+    // "subscription-service" is the logical name that service will register
+    // under with Eureka once it exists -- resolved via load balancer, no
+    // hardcoded host:port needed.
     public Map validateSubscription(Long userId) {
 
-        return webClient.get()
-                .uri("http://localhost:8086/mediaHub/subscriptionPlan/usersubscriptions/validateSubscription/"
+        return loadBalancedWebClientBuilder.build()
+                .get()
+                .uri("http://subscription-service/mediaHub/subscriptionPlan/usersubscriptions/validateSubscription/"
                         + userId)
                 .retrieve()
                 .bodyToMono(Map.class)

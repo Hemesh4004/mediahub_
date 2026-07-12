@@ -14,14 +14,27 @@
     </parent>
 
     <groupId>com.mediahub</groupId>
-    <artifactId>contentcatalog</artifactId>
+    <artifactId>content-catalog-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>contentcatalog</name>
-    <description>MediaHub Content Catalog and Creator Management</description>
+    <name>content-catalog-service</name>
+    <description>MediaHub Content Catalog and Creator Management Microservice</description>
 
     <properties>
         <java.version>21</java.version>
+        <spring-cloud.version>2023.0.0</spring-cloud.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <dependencies>
 
@@ -31,7 +44,7 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- Spring WebFlux -->
+        <!-- Spring WebFlux (used for WebClient calls to other services) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webflux</artifactId>
@@ -43,10 +56,22 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- Spring Boot Actuator -->
+        <!-- Spring Boot Actuator (needed for Eureka health checks) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <!-- Eureka Discovery Client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+
+        <!-- Load-balanced WebClient support (for calling other microservices by name) -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-loadbalancer</artifactId>
         </dependency>
 
         <!-- Swagger / OpenAPI -->
